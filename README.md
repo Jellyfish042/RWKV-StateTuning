@@ -1,5 +1,8 @@
 [中文](./README_ZH.md) | English
 
+## Notice
+This repository contains early explorations of State-Tuning. For a more mature implementation, please use [RWKV-PEFT](https://github.com/JL-er/RWKV-PEFT)
+
 ## What is State Tuning?
 
 State Tuning is a concept born out of the understanding that adjusting prompts can significantly enhance the performance of language models, tailoring them to specific tasks. For example, appending "Let's think step by step" to a math problem can improve accuracy. However, manually tweaking prompts for each task is labor-intensive and results are not guaranteed. This led to the innovative idea of using backpropagation to find/train the most suitable prompts ([Auto Prompt](https://arxiv.org/abs/2010.15980) etc.), which proved to be effective.
